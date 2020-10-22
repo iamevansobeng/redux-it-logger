@@ -1,32 +1,25 @@
 {
   "logs": [
     {
-      "message": "Change Jay chols",
+      "id": 4,
+      "message": "Try It today",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2020-10-22T20:37:03.878Z",
-      "id": 1
+      "tech": "Sampson Kagya",
+      "date": "2020-10-22T21:15:26.163Z"
     },
     {
-      "message": "Jamosdio owjio ",
+      "id": 5,
+      "message": "Fixed aondo oaod",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2020-10-22T21:17:08.291Z"
+    },
+    {
+      "message": "Sampson nie",
       "attention": true,
       "tech": "Sampson Kagya",
-      "date": "2020-10-22T20:37:15.091Z",
-      "id": 2
-    },
-    {
-      "message": "Opened the air condition",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-10-22T20:37:29.041Z",
-      "id": 3
-    },
-    {
-      "message": "Water leading",
-      "attention": true,
-      "tech": "Sampson Kagya",
-      "date": "2020-10-22T20:37:40.396Z",
-      "id": 4
+      "date": "2020-10-22T21:15:57.616Z",
+      "id": 6
     }
   ],
   "techs": [
