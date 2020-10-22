@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "message": "Change Jay chols",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-10-22T20:37:03.878Z",
+      "id": 1
+    },
+    {
+      "message": "Jamosdio owjio ",
+      "attention": true,
+      "tech": "Sampson Kagya",
+      "date": "2020-10-22T20:37:15.091Z",
+      "id": 2
+    },
+    {
+      "message": "Opened the air condition",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-10-22T20:37:29.041Z",
+      "id": 3
+    },
+    {
+      "message": "Water leading",
+      "attention": true,
+      "tech": "Sampson Kagya",
+      "date": "2020-10-22T20:37:40.396Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sarah",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Evans",
+      "lastName": "Obeng",
+      "id": 4
+    }
+  ]
+}
