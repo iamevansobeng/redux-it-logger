@@ -40,7 +40,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         logs: state.logs.map((log) =>
-          log.id !== action.payload.id ? action.payload : log
+          log.id === action.payload.id ? action.payload : log
         ),
       }
     case SET_CURRENT:
