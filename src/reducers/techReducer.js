@@ -4,9 +4,12 @@ import {
   SET_LOADING,
   GET_TECHS,
   DELETE_TECH,
+  UPDATE_TECH,
+  SET_CURRENT,
 } from "../actions/types"
 const initialState = {
   techs: null,
+  current: null,
   loading: false,
   error: null,
 }
@@ -25,11 +28,23 @@ export default (state = initialState, action) => {
         techs: [...state.techs, action.payload],
         loading: false,
       }
+    case UPDATE_TECH:
+      return {
+        ...state,
+        techs: state.techs.map((tech) =>
+          tech.id === action.payload.id ? action.payload : tech
+        ),
+      }
     case DELETE_TECH:
       return {
         ...state,
         techs: state.techs.filter((tech) => tech.id !== action.payload),
         loading: false,
+      }
+    case SET_CURRENT:
+      return {
+        ...state,
+        current: action.payload,
       }
     case SET_LOADING:
       return {

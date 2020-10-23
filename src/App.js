@@ -12,6 +12,7 @@ import TechListModal from "./components/techs/TechListModal"
 /// FOR THE STORE PROVIDR AND STORE IS THE WHOLE STORE
 import { Provider } from "react-redux"
 import store from "./store"
+import EditTechModal from "./components/techs/EditTechModal"
 
 const App = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const App = () => {
           <EditLogModal />
           <AddTechModal />
           <TechListModal />
+          <EditTechModal />
           <AddBtn />
         </div>
       </>

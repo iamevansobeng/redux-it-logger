@@ -3,18 +3,26 @@ import PropTypes from "prop-types"
 import { connect } from "react-redux"
 import { deleteTech } from "../../actions/techActions"
 import M from "materialize-css/dist/js/materialize.min.js"
+import { setCurrent } from "../../actions/techActions"
 
-const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
+const TechItem = ({ tech, deleteTech, setCurrent }) => {
   const onClick = () => {
-    deleteTech(id)
+    deleteTech(tech.id)
     M.toast({
-      html: `${firstName} ${lastName} removed from Technician`,
+      html: `${tech.firstName} ${tech.lastName} removed from Technician`,
     })
   }
   return (
-    <li key={id} className='collection-item'>
+    <li key={tech.id} className='collection-item'>
       <div className=''>
-        {firstName} {lastName}
+        {tech.firstName} {tech.lastName}
+        <a
+          href='#edit-tech-modal'
+          className='modal-trigger primary-content'
+          onClick={() => setCurrent(tech)}
+        >
+          <i className='material-icons grey-text'>edit</i>
+        </a>
         <a href='#' onClick={onClick} className='secondary-content'>
           <i className='material-icons grey-text'>delete</i>
         </a>
@@ -26,6 +34,7 @@ const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
 TechItem.propTypes = {
   tech: PropTypes.object.isRequired,
   deleteTech: PropTypes.func.isRequired,
+  setCurrent: PropTypes.func.isRequired,
 }
 
-export default connect(null, { deleteTech })(TechItem)
+export default connect(null, { deleteTech, setCurrent })(TechItem)
