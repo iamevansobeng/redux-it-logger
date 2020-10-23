@@ -46,11 +46,6 @@
       "lastName": "Wilson"
     },
     {
-      "firstName": "Evans",
-      "lastName": "Obeng",
-      "id": 4
-    },
-    {
       "firstName": "Akwasi",
       "lastName": "Boadi",
       "id": 5
@@ -59,36 +54,6 @@
       "firstName": "Jason",
       "lastName": "Statham",
       "id": 6
-    },
-    {
-      "firstName": "Ev",
-      "lastName": "Oeng",
-      "id": 7
-    },
-    {
-      "firstName": "Janet",
-      "lastName": "Mansah",
-      "id": 8
-    },
-    {
-      "firstName": "Kooo",
-      "lastName": "Kusi",
-      "id": 9
-    },
-    {
-      "firstName": "Kooo",
-      "lastName": "Kusi",
-      "id": 10
-    },
-    {
-      "firstName": "Gym",
-      "lastName": "Kwasi",
-      "id": 11
-    },
-    {
-      "firstName": "Kooo",
-      "lastName": "Kusi",
-      "id": 12
     }
   ]
 }
