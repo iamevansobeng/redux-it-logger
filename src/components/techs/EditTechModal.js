@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react"
 import M from "materialize-css/dist/js/materialize.min.js"
 import { connect } from "react-redux"
 import PropTypes from "prop-types"
-import { updateTech} from "../../actions/techActions"
+import { updateTech } from "../../actions/techActions"
 
 const EditTechModal = ({ updateTech, current }) => {
-  const [firstName, setFirstName] = useState("")gi
+  const [firstName, setFirstName] = useState("")
   const [lastName, setLastName] = useState("")
 
   useEffect(() => {
