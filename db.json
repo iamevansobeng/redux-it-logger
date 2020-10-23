@@ -4,8 +4,8 @@
       "id": 4,
       "message": "Try It today",
       "attention": true,
-      "tech": "Sampson Kagya",
-      "date": "2020-10-22T21:31:02.727Z"
+      "tech": "Sam Smith",
+      "date": "2020-10-23T08:11:31.509Z"
     },
     {
       "id": 5,
@@ -15,11 +15,18 @@
       "date": "2020-10-22T21:30:56.293Z"
     },
     {
+      "id": 6,
       "message": "Sampson nie",
-      "attention": true,
-      "tech": "Sampson Kagya",
-      "date": "2020-10-22T21:15:57.616Z",
-      "id": 6
+      "attention": false,
+      "tech": "Kooo Kusi",
+      "date": "2020-10-23T08:31:24.494Z"
+    },
+    {
+      "message": "Evans is gy",
+      "attention": false,
+      "tech": "Evans Obeng",
+      "date": "2020-10-23T08:10:48.898Z",
+      "id": 7
     }
   ],
   "techs": [
@@ -42,6 +49,46 @@
       "firstName": "Evans",
       "lastName": "Obeng",
       "id": 4
+    },
+    {
+      "firstName": "Akwasi",
+      "lastName": "Boadi",
+      "id": 5
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Statham",
+      "id": 6
+    },
+    {
+      "firstName": "Ev",
+      "lastName": "Oeng",
+      "id": 7
+    },
+    {
+      "firstName": "Janet",
+      "lastName": "Mansah",
+      "id": 8
+    },
+    {
+      "firstName": "Kooo",
+      "lastName": "Kusi",
+      "id": 9
+    },
+    {
+      "firstName": "Kooo",
+      "lastName": "Kusi",
+      "id": 10
+    },
+    {
+      "firstName": "Gym",
+      "lastName": "Kwasi",
+      "id": 11
+    },
+    {
+      "firstName": "Kooo",
+      "lastName": "Kusi",
+      "id": 12
     }
   ]
 }
